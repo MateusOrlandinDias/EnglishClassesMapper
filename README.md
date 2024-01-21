@@ -17,6 +17,6 @@ This project is a personal automation to map all my tasks for the week that i ha
 - Extract the contacts remaining.
 
 ## 3 - Create tasks in Asana
-# To the next instructions the automation may use the Asana API.
+### To the next instructions the automation may use the Asana API.
 - Create the tasks with the correct date and hour to the scheduled classes. Link the task with English project tag;
 - Create the tasks of the contacts remaining to do on the Monday of next week. Link the task with English project tag.
