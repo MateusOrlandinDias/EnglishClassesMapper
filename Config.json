@@ -2,5 +2,13 @@
     "links":{
         "topwayCloudLogin":"https://cloud.topwayschool.com/login",
         "topwayCloudAgenda":"https://cloud.topwayschool.com/home/cliente"
+    },
+    "email":{
+        "robotEmail":"mateus.orlandin@gmail.com",
+        "emailSustainSubject":"[R01 Personal - EnglishClassesMapper] System Exception",
+        "emailSustainRecipients":"mateus.orlandin@gmail.com"
+    },
+    "usernames":{
+        "topway":"mateus.orlandin@gmail.com"
     }
 }
