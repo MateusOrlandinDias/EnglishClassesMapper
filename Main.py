@@ -9,7 +9,7 @@ load_dotenv()
 config = PyRPA.InitAllSettings()
 
 try:
-    TopwayCloud.topwayCloudLogin(config)
+    TopwayCloud.getScheduledClasses(config)
 except Exception as e:
     print(f"General Exception Handling error detected: {str(e.args)}")
     ge.send_email(

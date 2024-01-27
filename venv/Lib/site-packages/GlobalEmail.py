@@ -9,7 +9,7 @@ def send_email(subject, body, email_to, email_from, appPassword, attachmentPath=
     msg['Subject'] = subject
     msg['From'] = email_from
     msg['To'] = email_to
-    password = robot_password
+    password = appPassword
 
     msg.attach(MIMEText(body, 'html'))
 
