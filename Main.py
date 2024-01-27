@@ -17,5 +17,5 @@ except Exception as e:
         f"Error found while running the automation:<br>{str(e.args)}",
         str(config["email"]["emailSustainRecipients"]),
         str(config["email"]["robotEmail"]),
-        str(os.getenv('EMAIL_ROBOT_ACCESS_KEY'))
+        str(os.getenv('EMAIL_ROBOT_APP_PASSWORD'))
     )

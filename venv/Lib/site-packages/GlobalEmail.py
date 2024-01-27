@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-def send_email(subject, body, email_to, email_from, robot_password, attachmentPath=None):  
+def send_email(subject, body, email_to, email_from, appPassword, attachmentPath=None):  
     msg = MIMEMultipart()
     msg['Subject'] = subject
     msg['From'] = email_from
